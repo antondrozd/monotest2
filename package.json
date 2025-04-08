@@ -1,0 +1,46 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create:app": "node --experimental-strip-types ./scripts/create-app.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Anton Drozd",
+  "license": "ISC",
+  "pnpm": {
+    "overrides": {
+      "@module-federation/enhanced": "$@module-federation/enhanced",
+      "@module-federation/rsbuild-plugin": "$@module-federation/rsbuild-plugin",
+      "@rsbuild/core": "$@rsbuild/core",
+      "@rsbuild/plugin-react": "$@rsbuild/plugin-react",
+      "@types/react": "$@types/react",
+      "@types/react-dom": "$@types/react-dom",
+      "react": "$react",
+      "react-dom": "$react-dom",
+      "typescript": "$typescript"
+    }
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.9.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1",
+    "@inquirer/prompts": "^7.3.2",
+    "@module-federation/rsbuild-plugin": "^0.9.0",
+    "@rsbuild/core": "^1.2.11",
+    "@rsbuild/plugin-react": "^1.1.1",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "chalk": "^5.4.1",
+    "fs-extra": "^11.3.0",
+    "path": "^0.12.7",
+    "typescript": "~5.7.2"
+  }
+}

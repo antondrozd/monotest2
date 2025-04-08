@@ -1,0 +1,12 @@
+{
+  "remotes": [
+    {
+      "name": "app1",
+      "entry": "http://localhost:1111/remoteEntry.js"
+    },
+    {
+      "name": "app2",
+      "entry": "http://localhost:1112/remoteEntry.js"
+    }
+  ]
+}

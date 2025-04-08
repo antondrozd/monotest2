@@ -1,0 +1,25 @@
+{
+  "name": "@mono/app1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "*",
+    "@mono/shared": "workspace:*",
+    "@noriginmedia/react-spatial-navigation": "^2.12.9",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "*",
+    "@rsbuild/plugin-react": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "typescript": "*"
+  }
+}

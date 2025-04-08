@@ -1,0 +1,24 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "*",
+    "react": "*",
+    "react-dom": "*",
+    "@mono/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "*",
+    "@rsbuild/plugin-react": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "typescript": "*"
+  }
+}

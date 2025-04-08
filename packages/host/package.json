@@ -1,0 +1,25 @@
+{
+  "name": "@mono/host",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "*",
+    "@mono/shared": "workspace:*",
+    "react": "*",
+    "react-dom": "*",
+    "react-error-boundary": "^5.0.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "*",
+    "@rsbuild/plugin-react": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "typescript": "*"
+  }
+}
